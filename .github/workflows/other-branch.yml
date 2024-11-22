@@ -8,14 +8,14 @@ on:
 jobs:
 
 
-  error:
-    runs-on: ubuntu-latest
+#  error:
+#    runs-on: ubuntu-latest
 
-    steps:
-      - name: Imprimir mensaje de error
-        run: |
-          echo "Este jobs genero un error"
-          exit 1
+#    steps:
+#      - name: Imprimir mensaje de error
+#        run: |
+#          echo "Este jobs genero un error"
+#          exit 1
   
   build:
     runs-on: ubuntu-latest
