@@ -1,0 +1,14 @@
+name: Changes in Main
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  is-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saludo
+        run: echo "Hola Mundo"
+
